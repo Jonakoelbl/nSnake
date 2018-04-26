@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-07 19:39-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: States/GameStateMainMenu.cpp:160
+msgid "All high scores erased!"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:355
+msgid "Arcade Mode"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:155
+msgid "Are you sure?"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:389 States/GameStateMainMenu.cpp:414
+#: States/GameStateMainMenu.cpp:494 States/GameStateMainMenu.cpp:537
+msgid "Back"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:516
+msgid "Center Horizontal"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:521
+msgid "Center Vertical"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:306 States/GameStateMainMenu.cpp:367
+msgid "Controls"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:479
+msgid "Erase High Scores"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:506
+msgid "Fancy Borders"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:424
+msgid "Fruits"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:301 States/GameStateMainMenu.cpp:364
+msgid "GUI Options"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:296 States/GameStateMainMenu.cpp:361
+msgid "Game Settings"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:370
+msgid "Help"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:550
+msgid "Key down"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:566
+msgid "Key help"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:554
+msgid "Key left"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:562
+msgid "Key pause"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:570
+msgid "Key quit"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:558
+msgid "Key right"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:546
+msgid "Key up"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:290 States/GameStateMainMenu.cpp:358
+msgid "Level Select"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:120 States/GameStateMainMenu.cpp:166
+#: States/GameStateMainMenu.cpp:182 States/GameStateMainMenu.cpp:205
+msgid "Main Menu"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:453
+msgid "Maze size"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:511
+msgid "Outer Border"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:279
+msgid "Please copy the default level files from"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:238
+msgid "Press any key, Enter to Cancel"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:373
+msgid "Quit"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:392
+msgid "Random"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:432
+msgid "Random Walls"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:575
+msgid "Reset to Defaults"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:462
+msgid "Scroll Delay(ms)"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:468
+msgid "Scroll Down"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:471
+msgid "Scroll Left"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:474
+msgid "Scroll Right"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:465
+msgid "Scroll Up"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:501
+msgid "Show Borders"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:277
+msgid "Sorry, it seems you have no levels."
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:421
+msgid "Starting Speed"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:429
+msgid "Teleport"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:283
+msgid "You can also download more levels from the website:"
+msgstr ""
+
+#: States/GameStateMainMenu.cpp:281
+msgid "to"
+msgstr ""

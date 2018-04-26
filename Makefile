@@ -62,6 +62,8 @@ MANFILE   = $(PACKAGE).$(MANNUMBER)
 MANPAGE   = doc/man/$(MANFILE)
 
 # Build info
+COMMANDER_LOCALEDIR = -DLOCALEDIR=\"$(LOCALEDIR)\"
+LOCALEDIR   = /usr/share/locale/es_AR/LC_MESSAGES
 EXE         = $(PACKAGE)
 CDEBUG      = -O2
 CXXFLAGS    = $(CDEBUG) -Wall -Wextra $(CFLAGS_PLATFORM)
@@ -193,6 +195,7 @@ clean:
 	# Cleaning object files...
 	$(MUTE)rm $(VTAG) -f $(OBJECTS)
 	$(MUTE)rm $(VTAG) -f bin/$(EXE)
+	$(MUTE)rm $(VTAG) -f $(LOCALEDIR)/gameStateMainMenu.mo
 
 clean-all: clean
 	# Cleaning dependency object files...
@@ -200,6 +203,8 @@ clean-all: clean
 
 dirs:
 	$(MUTE)mkdir -p bin
+	#$(MUTE)mkdir -p $(LOCALEDIR)/es/LC_MESSAGES
+	$(MUTE) install src/locale/es/*.mo $(LOCALEDIR)/
 
 doc:
 	# Generating documentation...
