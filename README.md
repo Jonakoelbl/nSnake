@@ -75,6 +75,10 @@ Then, it's simple:
 
 Check file `INSTALL.md` for more info.
 
+## Translate
+
+Check file `TRANSLATE.md` for more info
+
 ## Contact
 
 Hello there, I'm Alexandre Dantas (kure)!
