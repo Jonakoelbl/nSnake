@@ -117,6 +117,8 @@ else
 CDEBUG =
 endif
 
+GETTEX = GameStateMainMenu
+
 # Make targets
 all: dirs $(EXE)
 	# Build successful!
@@ -162,6 +164,9 @@ src/%.o: src/%.cpp
 	# Compiling $<...
 	$(MUTE)$(CXX) $(CXXFLAGS) $(CDEBUG) $< -c -o $@ $(DEFINES) $(INCLUDESDIR)
 
+$(GETTEX):$(GETTEX)
+	$(MUTE)$(CXX) $(CXXFLAGS) -I. -o $@ $<
+
 dist: clean-all $(DISTDIR).tar.gz
 
 # This creates a tarball with all the files
@@ -196,6 +201,7 @@ clean:
 	$(MUTE)rm $(VTAG) -f $(OBJECTS)
 	$(MUTE)rm $(VTAG) -f bin/$(EXE)
 	$(MUTE)rm $(VTAG) -f $(LOCALEDIR)/gameStateMainMenu.mo
+	@rm -f $(GETTEX) src/locale/es/*.mo *~
 
 clean-all: clean
 	# Cleaning dependency object files...
@@ -214,6 +220,18 @@ docclean:
 	# Removing documentation...
 	-$(MUTE)rm $(VTAG) -rf doc/html
 
+src/locale/es/$(GETTEX).mo: src/locale/es/$(GETTEX).po
+	# Write the translation of the new string in the .po file and build the .mo
+	msgfmt --output-file=$@ $<
+
+src/locale/es/$(GETTEX).po: src/locale/$(GETTEX).pot
+	# Merge it with the previous po file
+	$(MUTE) msgmerge --update $@ $<
+
+src/locale/$(GETTEX).pot: src/States/$(GETTEX).cpp
+	# Create pot file
+	xgettext -d GameStateMainMenu -s -o src/locale/GameStateMainMenu.pot src/States/GameStateMainMenu.cpp -k_
+
 .PHONY: clean clean-all dirs doc docclean uninstall
 
 # Engine stuff
@@ -225,4 +243,3 @@ $(ENGINE_DIR)/%.o: $(ENGINE_DIR)/%.cpp
 $(COMMANDER_DIR)/%.o: $(COMMANDER_DIR)/%.c
 	# Compiling $<...
 	$(MUTE)$(CC) $(COMMANDER_CFLAGS) $< -c -o $@
-

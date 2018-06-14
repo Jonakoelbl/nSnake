@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-07 19:39-0300\n"
+"POT-Creation-Date: 2018-06-14 16:55-0300\n"
 "PO-Revision-Date: 2018-06-07 20:14-0300\n"
 "Last-Translator: Jonatan Koelbl <jonakoelbl@gmail.com>\n"
 "Language-Team: Argentinian\n"
@@ -18,168 +18,152 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: States/GameStateMainMenu.cpp:160
+#: src/States/GameStateMainMenu.cpp:161
 msgid "All high scores erased!"
-msgstr ""
+msgstr "Puntuaciones borradas"
 
-#: States/GameStateMainMenu.cpp:355
+#: src/States/GameStateMainMenu.cpp:355
 msgid "Arcade Mode"
-msgstr ""
+msgstr "Modo Arcade"
 
-#: States/GameStateMainMenu.cpp:155
+#: src/States/GameStateMainMenu.cpp:156
 msgid "Are you sure?"
-msgstr ""
+msgstr "Estas seguro?"
 
-#: States/GameStateMainMenu.cpp:389 States/GameStateMainMenu.cpp:414
-#: States/GameStateMainMenu.cpp:494 States/GameStateMainMenu.cpp:537
+#: src/States/GameStateMainMenu.cpp:389 src/States/GameStateMainMenu.cpp:414
+#: src/States/GameStateMainMenu.cpp:494 src/States/GameStateMainMenu.cpp:537
 msgid "Back"
-msgstr ""
+msgstr "Volver"
 
-#: States/GameStateMainMenu.cpp:516
+#: src/States/GameStateMainMenu.cpp:516
 msgid "Center Horizontal"
-msgstr ""
+msgstr "Centro Horizontal"
 
-#: States/GameStateMainMenu.cpp:521
+#: src/States/GameStateMainMenu.cpp:521
 msgid "Center Vertical"
-msgstr ""
+msgstr "Centro Vertical"
 
-#: States/GameStateMainMenu.cpp:306 States/GameStateMainMenu.cpp:367
+#: src/States/GameStateMainMenu.cpp:306 src/States/GameStateMainMenu.cpp:367
 msgid "Controls"
-msgstr ""
+msgstr "Controles"
 
-#: States/GameStateMainMenu.cpp:479
+#: src/States/GameStateMainMenu.cpp:479
 msgid "Erase High Scores"
-msgstr ""
+msgstr "Eliminar Puntuaciones"
 
-#: States/GameStateMainMenu.cpp:506
+#: src/States/GameStateMainMenu.cpp:506
 msgid "Fancy Borders"
-msgstr ""
+msgstr "Fancy Bordes"
 
-#: States/GameStateMainMenu.cpp:424
+#: src/States/GameStateMainMenu.cpp:424
 msgid "Fruits"
-msgstr ""
+msgstr "Frutas"
 
-#: States/GameStateMainMenu.cpp:301 States/GameStateMainMenu.cpp:364
+#: src/States/GameStateMainMenu.cpp:301 src/States/GameStateMainMenu.cpp:364
 msgid "GUI Options"
-msgstr ""
+msgstr "Opciones GUI"
 
-#: States/GameStateMainMenu.cpp:296 States/GameStateMainMenu.cpp:361
+#: src/States/GameStateMainMenu.cpp:296 src/States/GameStateMainMenu.cpp:361
 msgid "Game Settings"
-msgstr ""
+msgstr "Configuraciones"
 
-#: States/GameStateMainMenu.cpp:370
+#: src/States/GameStateMainMenu.cpp:370
 msgid "Help"
-msgstr ""
+msgstr "Ayuda"
 
-#: States/GameStateMainMenu.cpp:550
+#: src/States/GameStateMainMenu.cpp:550
 msgid "Key down"
-msgstr ""
+msgstr "Abajo"
 
-#: States/GameStateMainMenu.cpp:566
+#: src/States/GameStateMainMenu.cpp:566
 msgid "Key help"
-msgstr ""
+msgstr "Ayuda"
 
-#: States/GameStateMainMenu.cpp:554
+#: src/States/GameStateMainMenu.cpp:554
 msgid "Key left"
-msgstr ""
+msgstr "Izquierda"
 
-#: States/GameStateMainMenu.cpp:562
+#: src/States/GameStateMainMenu.cpp:562
 msgid "Key pause"
-msgstr ""
+msgstr "Pausa"
 
-#: States/GameStateMainMenu.cpp:570
+#: src/States/GameStateMainMenu.cpp:570
 msgid "Key quit"
-msgstr ""
+msgstr "Salir"
 
-#: States/GameStateMainMenu.cpp:558
+#: src/States/GameStateMainMenu.cpp:558
 msgid "Key right"
-msgstr ""
+msgstr "Derecha"
 
-#: States/GameStateMainMenu.cpp:546
+#: src/States/GameStateMainMenu.cpp:546
 msgid "Key up"
-msgstr ""
+msgstr "Arriba"
 
-#: States/GameStateMainMenu.cpp:290 States/GameStateMainMenu.cpp:358
+#: src/States/GameStateMainMenu.cpp:290 src/States/GameStateMainMenu.cpp:358
 msgid "Level Select"
-msgstr ""
+msgstr "Elegir Nivel"
 
-#: States/GameStateMainMenu.cpp:120 States/GameStateMainMenu.cpp:166
-#: States/GameStateMainMenu.cpp:182 States/GameStateMainMenu.cpp:205
+#: src/States/GameStateMainMenu.cpp:121 src/States/GameStateMainMenu.cpp:167
+#: src/States/GameStateMainMenu.cpp:183 src/States/GameStateMainMenu.cpp:206
 msgid "Main Menu"
-msgstr ""
+msgstr "Menu Principal"
 
-#: States/GameStateMainMenu.cpp:453
+#: src/States/GameStateMainMenu.cpp:453
 msgid "Maze size"
-msgstr ""
+msgstr "Dimension"
 
-#: States/GameStateMainMenu.cpp:511
+#: src/States/GameStateMainMenu.cpp:511
 msgid "Outer Border"
-msgstr ""
+msgstr "Borde Exterior"
 
-#: States/GameStateMainMenu.cpp:279
-msgid "Please copy the default level files from"
-msgstr ""
-
-#: States/GameStateMainMenu.cpp:238
+#: src/States/GameStateMainMenu.cpp:239
 msgid "Press any key, Enter to Cancel"
-msgstr ""
+msgstr "Presiona cualquier tecla, Enter para cancelar"
 
-#: States/GameStateMainMenu.cpp:373
+#: src/States/GameStateMainMenu.cpp:373
 msgid "Quit"
-msgstr ""
+msgstr "Salir"
 
-#: States/GameStateMainMenu.cpp:392
+#: src/States/GameStateMainMenu.cpp:392
 msgid "Random"
-msgstr ""
+msgstr "Random"
 
-#: States/GameStateMainMenu.cpp:432
+#: src/States/GameStateMainMenu.cpp:432
 msgid "Random Walls"
-msgstr ""
+msgstr "Paredes Random"
 
-#: States/GameStateMainMenu.cpp:575
+#: src/States/GameStateMainMenu.cpp:575
 msgid "Reset to Defaults"
-msgstr ""
+msgstr "Restablecer"
 
-#: States/GameStateMainMenu.cpp:462
+#: src/States/GameStateMainMenu.cpp:462
 msgid "Scroll Delay(ms)"
-msgstr ""
+msgstr "Tiempo Scroll(ms)"
 
-#: States/GameStateMainMenu.cpp:468
+#: src/States/GameStateMainMenu.cpp:468
 msgid "Scroll Down"
-msgstr ""
+msgstr "Scroll Abajo"
 
-#: States/GameStateMainMenu.cpp:471
+#: src/States/GameStateMainMenu.cpp:471
 msgid "Scroll Left"
-msgstr ""
+msgstr "Scroll Izq"
 
-#: States/GameStateMainMenu.cpp:474
+#: src/States/GameStateMainMenu.cpp:474
 msgid "Scroll Right"
-msgstr ""
+msgstr "Scroll Derecha"
 
-#: States/GameStateMainMenu.cpp:465
+#: src/States/GameStateMainMenu.cpp:465
 msgid "Scroll Up"
-msgstr ""
+msgstr "Scroll Arriba"
 
-#: States/GameStateMainMenu.cpp:501
+#: src/States/GameStateMainMenu.cpp:501
 msgid "Show Borders"
-msgstr ""
+msgstr "Mostrar bordes"
 
-#: States/GameStateMainMenu.cpp:277
-msgid "Sorry, it seems you have no levels."
-msgstr ""
-
-#: States/GameStateMainMenu.cpp:421
+#: src/States/GameStateMainMenu.cpp:421
 msgid "Starting Speed"
-msgstr ""
+msgstr "Velocidad Inicial"
 
-#: States/GameStateMainMenu.cpp:429
+#: src/States/GameStateMainMenu.cpp:429
 msgid "Teleport"
-msgstr ""
-
-#: States/GameStateMainMenu.cpp:283
-msgid "You can also download more levels from the website:"
-msgstr ""
-
-#: States/GameStateMainMenu.cpp:281
-msgid "to"
-msgstr ""
+msgstr "Teleport"
