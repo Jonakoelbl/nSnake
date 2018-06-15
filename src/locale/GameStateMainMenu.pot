@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-14 16:55-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/States/GameStateMainMenu.cpp:161
+msgid "All high scores erased!"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:355
+msgid "Arcade Mode"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:156
+msgid "Are you sure?"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:389 src/States/GameStateMainMenu.cpp:414
+#: src/States/GameStateMainMenu.cpp:494 src/States/GameStateMainMenu.cpp:537
+msgid "Back"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:516
+msgid "Center Horizontal"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:521
+msgid "Center Vertical"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:306 src/States/GameStateMainMenu.cpp:367
+msgid "Controls"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:479
+msgid "Erase High Scores"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:506
+msgid "Fancy Borders"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:424
+msgid "Fruits"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:301 src/States/GameStateMainMenu.cpp:364
+msgid "GUI Options"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:296 src/States/GameStateMainMenu.cpp:361
+msgid "Game Settings"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:370
+msgid "Help"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:550
+msgid "Key down"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:566
+msgid "Key help"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:554
+msgid "Key left"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:562
+msgid "Key pause"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:570
+msgid "Key quit"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:558
+msgid "Key right"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:546
+msgid "Key up"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:290 src/States/GameStateMainMenu.cpp:358
+msgid "Level Select"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:121 src/States/GameStateMainMenu.cpp:167
+#: src/States/GameStateMainMenu.cpp:183 src/States/GameStateMainMenu.cpp:206
+msgid "Main Menu"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:453
+msgid "Maze size"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:511
+msgid "Outer Border"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:239
+msgid "Press any key, Enter to Cancel"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:373
+msgid "Quit"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:392
+msgid "Random"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:432
+msgid "Random Walls"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:575
+msgid "Reset to Defaults"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:462
+msgid "Scroll Delay(ms)"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:468
+msgid "Scroll Down"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:471
+msgid "Scroll Left"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:474
+msgid "Scroll Right"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:465
+msgid "Scroll Up"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:501
+msgid "Show Borders"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:421
+msgid "Starting Speed"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:429
+msgid "Teleport"
+msgstr ""

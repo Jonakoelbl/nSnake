@@ -6,10 +6,22 @@
 #include <Config/Arguments.hpp>
 #include <States/GameStateMainMenu.hpp>
 
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#include <libintl.h>
+#include <locale.h>
+
 int main(int argc, char *argv[])
 {
 	try
 	{
+		/* Setting the i18n environment */
+  		setlocale (LC_ALL, "");
+  		bindtextdomain ("GameStateMainMenu", "/usr/share/locale");
+  		textdomain ("GameStateMainMenu");
+
 		// Settings
 		EngineGlobals::init();
 		Globals::init();
